@@ -1,0 +1,40 @@
+experience:
+  - company: "SmartRep.ai"
+    company_link: "https://smartrep.ai/"
+    role: "Senior AI Engineer"
+    period: "March 2025 - Present"
+    country: "Remote"
+    responsibilities:
+      - "Consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      - "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      - "Duis aute irure dolor in reprehenderit in voluptate velit esse."
+    technologies:
+      - "Go"
+      - "Hugo"
+      - "Docker"
+      - "PostgreSQL"
+
+  - company: "Ipsum Dolor Corp"
+    role: "Lorem Engineer"
+    period: "Jun 2020 - Dec 2022"
+    country: "Athens, Greece"
+    responsibilities:
+      - "Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+      - "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+    technologies:
+      - "JavaScript"
+      - "React"
+      - "Nginx"
+
+
+  - company: "Ipsum Dolor Corp"
+    role: "Lorem Engineer"
+    period: "Jun 2020 - Dec 2022"
+    country: "Athens, Greece"
+    responsibilities:
+      - "Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+      - "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+    technologies:
+      - "JavaScript"
+      - "React"
+      - "Nginx"
