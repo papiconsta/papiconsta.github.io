@@ -31,6 +31,7 @@ pagerSize = 6
   since = 2026
   colorScheme = "auto"
   hideColorSchemeToggle = false
+  customCSS = ["css/custom.css"]
   commit = "https://github.com/papiconsta/papiconsta.github.io/tree/"
 
   # TODO: fill in your real profile URLs, then uncomment.

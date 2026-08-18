@@ -1,0 +1,38 @@
+.cv-download {
+  margin-top: 1em;
+}
+
+.cv-download-btn {
+  display: inline-block;
+  padding: 0.6em 1.4em;
+  border-radius: 4px;
+  background-color: #1565c0;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.cv-download-btn:hover {
+  background-color: #0d47a1;
+}
+
+body.colorscheme-dark .cv-download-btn {
+  background-color: #42a5f5;
+  color: #212121 !important;
+}
+
+body.colorscheme-dark .cv-download-btn:hover {
+  background-color: #64b5f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .cv-download-btn {
+    background-color: #42a5f5;
+    color: #212121 !important;
+  }
+
+  body.colorscheme-auto .cv-download-btn:hover {
+    background-color: #64b5f6;
+  }
+}
