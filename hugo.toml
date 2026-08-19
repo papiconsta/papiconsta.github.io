@@ -34,18 +34,23 @@ pagerSize = 6
   customCSS = ["css/custom.css"]
   commit = "https://github.com/papiconsta/papiconsta.github.io/tree/"
 
+  paragraphs = [
+    "Hey I am Constantinos Papi",
+    "New para"
+  ]
+  
   # TODO: fill in your real profile URLs, then uncomment.
-  # [[params.social]]
-  #   name = "Github"
-  #   icon = "fa-brands fa-github fa-2x"
-  #   weight = 1
-  #   url = "https://github.com/papiconsta/"
-  #
-  # [[params.social]]
-  #   name = "LinkedIn"
-  #   icon = "fa-brands fa-linkedin fa-2x"
-  #   weight = 2
-  #   url = "https://www.linkedin.com/in/papiconsta/"
+   [[params.social]]
+     name = "Github"
+     icon = "fa-brands fa-github fa-2x"
+     weight = 1
+     url = "https://github.com/papiconsta/"
+  
+   [[params.social]]
+     name = "LinkedIn"
+     icon = "fa-brands fa-linkedin fa-2x"
+     weight = 2
+     url = "https://www.linkedin.com/in/constantino-papi/"
 
   [[params.social]]
     name = "Email"
@@ -74,6 +79,12 @@ pagerSize = 6
   url = "posts/"
 
 [[menu.main]]
-  name = "Contact"
-  weight = 5
-  url = "contact/"
+  name = "Learning"
+  weight = 4
+  url = "learn/"
+
+
+#[[menu.main]]
+#  name = "Contact"
+#  weight = 5
+#  url = "contact/"

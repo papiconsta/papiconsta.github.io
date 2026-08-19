@@ -1,3 +1,11 @@
-<div class="cv-download">
-  <a class="cv-download-btn" href="{{ "cv.pdf" | relURL }}" target="_blank" rel="noopener noreferrer">Download my CV</a>
+{{ with .Site.Params.paragraphs }}
+<div class="home-paragraphs">
+  {{ range . }}
+  <p>{{ . | markdownify }}</p>
+  {{ end }}
 </div>
+{{ end }}
+
+<!-- <div class="cv-download">
+  <a class="cv-download-btn" href="{{ "cv.pdf" | relURL }}" target="_blank" rel="noopener noreferrer">Download my CV</a>
+</div> -->
