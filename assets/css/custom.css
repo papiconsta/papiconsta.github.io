@@ -114,3 +114,11 @@ body.colorscheme-dark .cv-download-btn:hover {
     display: block;
   }
 }
+
+.learn-group {
+  margin: 0 0 2.5rem;
+}
+
+.learn-group__title {
+  margin: 0 0 0.75rem;
+}
