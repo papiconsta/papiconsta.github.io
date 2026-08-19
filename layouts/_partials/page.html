@@ -1,0 +1,37 @@
+<section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ .Title }}
+        </a>
+      </h1>
+      {{ if .Params.meta }}
+      <div class="post-meta">
+        <div class="date">
+          <span class="posted-on">
+            <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+            </time>
+          </span>
+          <span class="reading-time">
+            <i class="fa-solid fa-clock" aria-hidden="true"></i>
+            {{ i18n "reading_time" .ReadingTime }}
+          </span>
+        </div>
+        {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+      </div>
+      {{ end }}
+    </header>
+
+    {{ if .Params.toc }}
+    <nav class="page-toc" aria-label="Table of contents">
+      <p class="page-toc__heading">On this page</p>
+      {{ .TableOfContents }}
+    </nav>
+    {{ end }}
+
+    {{ .Content }}
+  </article>
+</section>

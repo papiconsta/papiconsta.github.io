@@ -36,3 +36,81 @@ body.colorscheme-dark .cv-download-btn:hover {
     background-color: #64b5f6;
   }
 }
+
+.page-toc {
+  --toc-link-color: #43a047;
+  --toc-active-color: #ff5722;
+  margin: 0 0 2.5rem;
+  padding: 1.2rem 1.5rem;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.page-toc__heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.6rem;
+  opacity: 0.7;
+}
+
+.page-toc ul {
+  list-style: disc;
+  margin: 0 0 0 1.1rem;
+  padding: 0;
+}
+
+.page-toc ul ul {
+  margin-top: 0.35rem;
+}
+
+.page-toc li {
+  margin: 0.35rem 0;
+}
+
+.page-toc a {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--toc-link-color);
+  text-decoration: underline;
+  transition: color 0.15s ease;
+}
+
+.page-toc a:hover {
+  color: var(--toc-active-color);
+}
+
+.page-toc a.is-active {
+  color: var(--toc-active-color);
+}
+
+.rules-table table {
+  width: 100%;
+  border: 1px solid rgba(127, 127, 127, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rules-table th,
+.rules-table td {
+  padding: 0.9rem 1.2rem;
+  border: 1px solid rgba(127, 127, 127, 0.2);
+}
+
+.rules-table th {
+  background: rgba(67, 160, 71, 0.12);
+  font-weight: 700;
+  text-align: left;
+}
+
+.rules-table tr:nth-child(even) td {
+  background: rgba(127, 127, 127, 0.06);
+}
+
+@media only screen and (max-width: 900px) {
+  .page-toc {
+    display: block;
+  }
+}

@@ -5,6 +5,8 @@ draft = false
 description = "Exercises to build intuition about probability and statistics"
 tags = ["Probability", "Factorials", "Statistics"]
 math = true
+toc = true
+meta = true
 +++
 
 # Counting & Probability — 20 Exercises
@@ -14,11 +16,15 @@ Work through these in order. Before computing anything, always ask the two diagn
 1. **Does order matter?**
 2. **Is sampling with or without replacement?**
 
+<div class="rules-table">
+
 | Order? | Replacement? | Formula |
 |---|---|---|
 | Yes | Yes | $n^r$ |
 | Yes | No | $P(n,r) = \dfrac{n!}{(n-r)!}$ |
 | No | No | $\binom{n}{r} = \dfrac{n!}{r!\\,(n-r)!}$ |
+
+</div>
 
 Solutions with reasoning start on page 2 (below the divider). Try each problem fully before scrolling.
 
