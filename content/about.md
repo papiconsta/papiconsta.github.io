@@ -5,18 +5,23 @@ date = 2026-08-14
 draft = false
 +++
 
-## Hello
+## Who am I
 
-I'm a **developer** who loves [Hugo](https://gohugo.io).
+I'm a developer with passion about A.I and Finance. Most of my work is around Machine Learning and LLM's and also developed a passion about Data/Analytics Engineering. 
 
-- Point one
-- Point two
 
-## Honors & Awards
+## Education
 
-<!-- TODO: replace with real honors, or delete this section -->
+I hold a BEng(Hons) Informatics Engineering from Hellenic Meditteranean University with 
+specialization in Software Engineering and A.I .
 
-- **Summa Cum Laude** — Lorem University, May 2020
+Most of my Courses invovle Databases, Machine learning, Neural Networks, Math, System Design.
+
+Thesis : Stock market prediction using machine learning and neural network methods.
+
+<div class="cv-download">
+  <a class="cv-download-btn" href="/thesis.pdf" target="_blank" rel="noopener noreferrer">Download Thesis (PDF)</a>
+</div>
 
 ## Certifications
 

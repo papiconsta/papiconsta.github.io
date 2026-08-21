@@ -23,7 +23,7 @@ pagerSize = 6
 
 [params]
   author = "Constantinos Papi"
-  info = "Senior AI Engineer"
+  info = "AI/Analytics Engineer (T DEV)"
   description = "Constantinos Papi's personal portfolio & blog"
   keywords = "portfolio,developer,blog,ai"
   avatarURL = "images/icons/avatar.jpg"
@@ -35,8 +35,7 @@ pagerSize = 6
   commit = "https://github.com/papiconsta/papiconsta.github.io/tree/"
 
   paragraphs = [
-    "Hey I am Constantinos Papi",
-    "New para"
+""
   ]
   
   # TODO: fill in your real profile URLs, then uncomment.
