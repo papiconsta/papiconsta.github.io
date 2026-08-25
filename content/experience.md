@@ -7,6 +7,11 @@ draft = false
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+<div class="cv-download">
+  <a class="cv-download-btn" href="/cv.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+</div>
+
+
 ## Senior AI Engineer — [SmartRep.ai](https://smartrep.ai/)
 
 *March 2025 - Present · Remote*

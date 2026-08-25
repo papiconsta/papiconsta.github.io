@@ -20,23 +20,13 @@ Most of my Courses invovle Databases, Machine learning, Neural Networks, Math, S
 Thesis : Stock market prediction using machine learning and neural network methods.
 
 <div class="cv-download">
-  <a class="cv-download-btn" href="/thesis.pdf" target="_blank" rel="noopener noreferrer">Download Thesis (PDF)</a>
+  <a class="cv-download-btn pdf-viewer-link" href="/thesis.pdf">Thesis (PDF)</a>
 </div>
 
-## Certifications
+## Certifications / Completed courses
 
 <!-- TODO: replace with real certifications, or delete this section -->
 
-- **Professional Widget Certification** — Widgets Inc., valid until Jan 2025 ([view](https://example.com/certification/123))
-
-## Voluntary Work
-
-<!-- TODO: replace with real voluntary work, or delete this section -->
-
-- **Community Helper**, Local Charity Group (2021 - Present) — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ([link](https://example.com/community))
-
-## Tech Stack
-
-<!-- TODO: trim/replace with what's actually true -->
-
-Python, Go, JavaScript, TypeScript, React, Vue.js, HTML5, CSS3, Docker, Kubernetes, Nginx, PostgreSQL, Redis, Git, Hugo, TailwindCSS
+- **Data Engineering Bootcamp** — Learned some basic concepts of data engineering <div class="cv-download">
+  <a class="cv-download-btn" href="https://udemy-certificate.s3.amazonaws.com/image/UC-3c96daf3-a6eb-44e3-b3e9-1d0a2f891930.jpg" target="_blank" rel="noopener noreferrer">Cert.</a>
+</div>

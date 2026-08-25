@@ -32,4 +32,48 @@
     if (heading) observer.observe(heading);
   });
 })();
+
+(function () {
+  var triggers = document.querySelectorAll("a.pdf-viewer-link");
+  if (!triggers.length) return;
+
+  var overlay = document.createElement("div");
+  overlay.className = "pdf-modal-overlay";
+  overlay.innerHTML =
+    '<div class="pdf-modal" role="dialog" aria-modal="true">' +
+    '<div class="pdf-modal__header">' +
+    '<button type="button" class="pdf-modal__close" aria-label="Close">&times;</button>' +
+    "</div>" +
+    '<iframe class="pdf-modal__frame"></iframe>' +
+    "</div>";
+  document.body.appendChild(overlay);
+
+  var frame = overlay.querySelector(".pdf-modal__frame");
+  var closeBtn = overlay.querySelector(".pdf-modal__close");
+
+  var closeModal = function () {
+    overlay.classList.remove("is-open");
+    frame.src = "";
+  };
+
+  var openModal = function (href) {
+    frame.src = href;
+    overlay.classList.add("is-open");
+  };
+
+  triggers.forEach(function (trigger) {
+    trigger.addEventListener("click", function (event) {
+      event.preventDefault();
+      openModal(trigger.getAttribute("href"));
+    });
+  });
+
+  closeBtn.addEventListener("click", closeModal);
+  overlay.addEventListener("click", function (event) {
+    if (event.target === overlay) closeModal();
+  });
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && overlay.classList.contains("is-open")) closeModal();
+  });
+})();
 </script>
