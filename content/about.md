@@ -27,6 +27,6 @@ Thesis : Stock market prediction using machine learning and neural network metho
 
 <!-- TODO: replace with real certifications, or delete this section -->
 
-- **Data Engineering Bootcamp** — Learned some basic concepts of data engineering <div class="cv-download">
-  <a class="cv-download-btn" href="https://udemy-certificate.s3.amazonaws.com/image/UC-3c96daf3-a6eb-44e3-b3e9-1d0a2f891930.jpg" target="_blank" rel="noopener noreferrer">Cert.</a>
-</div>
+- **Data Engineering Bootcamp** — Learned some basic concepts of data engineering <div class="cv-download"><a class="cv-download-btn" href="https://udemy-certificate.s3.amazonaws.com/image/UC-3c96daf3-a6eb-44e3-b3e9-1d0a2f891930.jpg" target="_blank" rel="noopener noreferrer">Cert.</a></div>
+
+- **Artificial Intelligence in Green Energy** — An introduction to key challenges in the green energy sector, an area that remains largely underexplored, particularly within the EU and some A.I Solution that could solve problems in the future. <div class="cv-download"><a class="cv-download-btn  pdf-viewer-link" href="/artificial_inteligence.pdf" target="_blank" rel="noopener noreferrer">Cert.</a></div>
