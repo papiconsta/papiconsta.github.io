@@ -1,0 +1,33 @@
+{{ define "title" }}
+  {{- i18n (lower .Title) | default .Title | title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+<section class="container list">
+  <header>
+    <h1 class="title">
+      <a class="title-link" href="{{ .Permalink | safeURL }}">
+        {{- i18n (lower .Title) | default .Title | title -}}
+      </a>
+    </h1>
+  </header>
+  {{ .Content }}
+
+  <div class="projects-grid">
+    {{ range .RegularPages.ByDate.Reverse }}
+    <a href="{{ .RelPermalink }}" class="project-card">
+      {{ if .Params.image }}
+      <div class="project-card__image">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+      </div>
+      {{ end }}
+      <div class="project-card__content">
+        <h2 class="project-card__title">{{ .Title }}</h2>
+        {{ if .Params.description }}
+        <p class="project-card__description">{{ .Params.description }}</p>
+        {{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
