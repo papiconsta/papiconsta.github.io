@@ -1,10 +1,10 @@
 +++
-title = 'My First Project'
+title = 'Analytics for Canadian | Data/Analytics Engineering'
 date = 2026-08-25
 draft = false
-description = "A brief description of what this project is about and what problem it solves"
+description = "The dataset invovles a canadian public spendings in major sectors accross it's economy. We pre-process and create pipelines in order eventually to build analytics based on the data."
 image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREGhVN03iZNkpY6BnH-ToTnN9zWI5iEJwraCNz4bu1nw&s"
-tags = ["Python", "Machine Learning", "Data Science"]
+tags = ["Python", "Analytics", "Data Engineering"]
 +++
 
 ## Overview
