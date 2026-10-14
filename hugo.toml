@@ -27,7 +27,7 @@ pagerSize = 6
   description = "Constantinos Papi's personal portfolio & blog"
   keywords = "portfolio,developer,blog,ai"
   avatarURL = "images/icons/avatar.jpg"
-  dateFormat = "January 2, 2006"
+  dateFormat = "January 2, 2006, 15:04"
   since = 2026
   colorScheme = "auto"
   hideColorSchemeToggle = false
@@ -78,9 +78,9 @@ pagerSize = 6
   url = "posts/"
 
 [[menu.main]]
-  name = "Learning"
+  name = "Notes"
   weight = 4
-  url = "learn/"
+  url = "Notes/"
 
 
 #[[menu.main]]

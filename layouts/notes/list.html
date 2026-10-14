@@ -1,0 +1,39 @@
+{{ define "title" }}
+  {{- i18n (lower .Title) | default .Title | title }} · {{ .Site.Title -}}
+{{ end }}
+{{ define "content" }}
+<section class="container list">
+  <header>
+    <h1 class="title">
+      <a class="title-link" href="{{ .Permalink | safeURL }}">
+        {{- i18n (lower .Title) | default .Title | title -}}
+      </a>
+    </h1>
+  </header>
+  {{ .Content }}
+
+  {{ range .RegularPages.GroupByParam "group" }}
+  <div class="learn-group">
+    <h2 class="learn-group__title">{{ .Key | default "Uncategorized" }}</h2>
+    <div class="rules-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Pages }}
+          <tr>
+            <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+            <td>{{ .Params.description }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
