@@ -8,7 +8,7 @@ draft = false
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 <div class="cv-download">
-  <a class="cv-download-btn pdf-viewer-link" href="/cv.pdf" target="_blank" rel="noopener noreferrer">View CV (PDF)</a>
+  <a class="cv-download-btn pdf-viewer-link" href="/Constantinos_Papi_CV.pdf" target="_blank" rel="noopener noreferrer">View CV (PDF)</a>
 </div>
 
 

@@ -2,3 +2,7 @@
 /resources/_gen/
 /.hugo_build.lock
 .DS_Store
+# Personal reading material: keep local, never publish
+/static/images/icons/Derivatives_*.pdf
+/static/images/icons/P4QF_General.pdf
+/static/images/icons/bv_cvxbook.pdf
