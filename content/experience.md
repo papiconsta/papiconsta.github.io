@@ -5,7 +5,7 @@ date = 2026-08-14
 draft = false
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+I am an AI/Data Engineer that loves to learn. 
 
 <div class="cv-download">
   <a class="cv-download-btn pdf-viewer-link" href="/Constantinos_Papi_CV.pdf" target="_blank" rel="noopener noreferrer">View CV (PDF)</a>
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 *Sept. 2024 - March. 2025 · Crete Heraklion, Greece*
 
-- Participated in migration of Oracle databases to PostgreSQL, transforming and filtering user data for downstream analysis and processing.
+- I took part in a migration of Oracle databases to PostgreSQL, transforming and filtering user data for Data analysis and processing.
 - Supported infrastructure and database operations for academic and engineering environments.
 - Provisioned and maintained environments supporting Data Science and Backend Engineering workflows.
 
